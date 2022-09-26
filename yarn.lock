@@ -2492,14 +2492,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/user-event@npm:^13.5.0":
-  version: 13.5.0
-  resolution: "@testing-library/user-event@npm:13.5.0"
-  dependencies:
-    "@babel/runtime": ^7.12.5
+"@testing-library/user-event@npm:^14.4.3":
+  version: 14.4.3
+  resolution: "@testing-library/user-event@npm:14.4.3"
   peerDependencies:
     "@testing-library/dom": ">=7.21.4"
-  checksum: 16319de685fbb7008f1ba667928f458b2d08196918002daca56996de80ef35e6d9de26e9e1ece7d00a004692b95a597cf9142fff0dc53f2f51606a776584f549
+  checksum: 852c48ea6db1c9471b18276617c84fec4320771e466cd58339a732ca3fd73ad35e5a43ae14f51af51a8d0a150dcf60fcaab049ef367871207bea8f92c4b8195e
   languageName: node
   linkType: hard
 
@@ -2724,23 +2722,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:*":
+"@types/jest@npm:*, @types/jest@npm:^29.0.3":
   version: 29.0.3
   resolution: "@types/jest@npm:29.0.3"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
   checksum: 14a8ec1954540ec59f4072c3c4dbc6b5d5ff616556c98671aca26606bdf9d49616a3f269f3e488c80cd481ee19880351575c1f6895827628818e193600c121e0
-  languageName: node
-  linkType: hard
-
-"@types/jest@npm:^27.5.2":
-  version: 27.5.2
-  resolution: "@types/jest@npm:27.5.2"
-  dependencies:
-    jest-matcher-utils: ^27.0.0
-    pretty-format: ^27.0.0
-  checksum: 7e11c6826aa429ad990dc262e4e4b54aa36573287fddf15773e4137f07d11d3105f0dd9f1baff73252160a057df23f5529bb83b1bf83cd3f45f9460a5ca5c22e
   languageName: node
   linkType: hard
 
@@ -3665,7 +3653,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.11":
+"autoprefixer@npm:^10.4.11, autoprefixer@npm:^10.4.12":
   version: 10.4.12
   resolution: "autoprefixer@npm:10.4.12"
   dependencies:
@@ -7498,7 +7486,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-matcher-utils@npm:^27.0.0, jest-matcher-utils@npm:^27.5.1":
+"jest-matcher-utils@npm:^27.5.1":
   version: 27.5.1
   resolution: "jest-matcher-utils@npm:27.5.1"
   dependencies:
@@ -8629,16 +8617,19 @@ __metadata:
   dependencies:
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.4.0
-    "@testing-library/user-event": ^13.5.0
-    "@types/jest": ^27.5.2
+    "@testing-library/user-event": ^14.4.3
+    "@types/jest": ^29.0.3
     "@types/node": ^16.11.60
     "@types/react": ^18.0.21
     "@types/react-dom": ^18.0.6
+    autoprefixer: ^10.4.12
+    postcss: ^8.4.16
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
+    tailwindcss: ^3.1.8
     typescript: ^4.8.3
-    web-vitals: ^2.1.4
+    web-vitals: ^3.0.2
   languageName: unknown
   linkType: soft
 
@@ -10039,7 +10030,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.3.5, postcss@npm:^8.4.14, postcss@npm:^8.4.4, postcss@npm:^8.4.7":
+"postcss@npm:^8.3.5, postcss@npm:^8.4.14, postcss@npm:^8.4.16, postcss@npm:^8.4.4, postcss@npm:^8.4.7":
   version: 8.4.16
   resolution: "postcss@npm:8.4.16"
   dependencies:
@@ -10081,7 +10072,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-format@npm:^27.0.0, pretty-format@npm:^27.0.2, pretty-format@npm:^27.5.1":
+"pretty-format@npm:^27.0.2, pretty-format@npm:^27.5.1":
   version: 27.5.1
   resolution: "pretty-format@npm:27.5.1"
   dependencies:
@@ -11592,7 +11583,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.0.2":
+"tailwindcss@npm:^3.0.2, tailwindcss@npm:^3.1.8":
   version: 3.1.8
   resolution: "tailwindcss@npm:3.1.8"
   dependencies:
@@ -12185,10 +12176,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"web-vitals@npm:^2.1.4":
-  version: 2.1.4
-  resolution: "web-vitals@npm:2.1.4"
-  checksum: 03d3f47dbf55c3dce07beb0ff5de8ddd52e2d0a53a8df5c84e7a16dda93543341d67231fa79b1d9772b091419af4ec0fd395b8bcf451a0e26846e3f76b3d0efc
+"web-vitals@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "web-vitals@npm:3.0.2"
+  checksum: 012256fde3c96913b724306904bdf588893aa4e3bfaaded4b83854eb12b74e25b41ce21c5b46138b020ef462143dc03f72f697b36647dddad70c2d379df82eec
   languageName: node
   linkType: hard
 
