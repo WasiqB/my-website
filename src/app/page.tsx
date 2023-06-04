@@ -1,9 +1,11 @@
-import Image from "next/image";
+import { Button } from '@components/ui/button'
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between p-24">
       <h1 className="font-bold text-3xl text-red-600">Hello World!</h1>
+      <Button>Primary Button</Button>
+      <Button variant="destructive">Danger</Button>
       {/* Hero section */}
 
       {/* About me */}
@@ -30,5 +32,5 @@ export default function Home() {
 
       {/* My Newsletter */}
     </main>
-  );
+  )
 }
