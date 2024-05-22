@@ -38,13 +38,19 @@ const CreatePage = () => {
     try {
       const response = await axios.post("/api/courses", values);
       router.push(`/teacher/courses/${response.data.id}`);
+      toast({
+        variant: "default",
+        title: "Success!",
+        description: "Course created successfully!",
+        duration: 3000,
+      });
     } catch (error) {
       if (error instanceof AxiosError) {
         toast({
           variant: "destructive",
           title: "Error Occurred!",
           description: error.message,
-          duration: 5000,
+          duration: 3000,
         });
       }
     }
